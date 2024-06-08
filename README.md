@@ -1,4 +1,12 @@
-# Analog
+# Analog Node:
+## 1. First, ensure you’ve installed Docker:
+```
+docker compose vesion
+```
+## 2. Next, download the latest Timechain image:
+```
+docker pull analoglabs/timechain:latest
+```
 
 Truy cập container
 ```
