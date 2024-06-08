@@ -131,4 +131,8 @@ And run Generate again.
 ```
 docker run -d -p 9944:9944 -p 30403:30303 --name Analog-Joseph analoglabs/timechain --validator --base-path /data --rpc-external --rpc-methods=Unsafe --unsafe-rpc-external --rpc-max-connections=200 --name JosephTran --telemetry-url 'wss://telemetry.analog.one/submit 1' --in-peers=50
 ```
+Testing:
+```
+docker run -d -p 9944:9944 -p 30403:30303 --name Analog -v /home/ubuntu/Analog/data:/data -v /home/ubuntu/Analog/node-key:/data/node-key analoglabs/timechain --validator --base-path /data --rpc-external --rpc-methods=Unsafe --unsafe-rpc-external --rpc-max-connections=200 --name JosephTran --telemetry-url 'wss://telemetry.analog.one/submit 1' --in-peers=50 --node-key-file /data/node-key/secret_seed.txt 
+```
 
