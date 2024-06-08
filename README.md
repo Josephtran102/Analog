@@ -108,6 +108,8 @@ Result:
 ```
 Use this value for Session Keys:
 `"0x90a3477db1c362ebaaf744f93ba3964866c3062037b86d79480hthth7i776u7ubc0d7783b9a98f6ca2fd64c1573eac5eebeb93ec1e233f7b8888db2c4fc1fbddc099c11f4b9fc5f4f1a1c6b80fc32ad0abb8a9db3ba198949f1f34262018cf2b"`
+
+
 If you get error can not generate Session keys:
 - Install Rust:
 ```
