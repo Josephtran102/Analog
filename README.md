@@ -1,5 +1,5 @@
 # I. Analog Node Installation:
-Docs: [https://docs.analog.one/documentation/node-operators/running-a-timechain-node][Docs: https://docs.analog.one/documentation/node-operators/running-a-timechain-node]
+Docs: (https://docs.analog.one/documentation/node-operators/running-a-timechain-node)[Docs: https://docs.analog.one/documentation/node-operators/running-a-timechain-node]
 ## 1. First, ensure you’ve installed Docker:
 ```
 docker compose vesion
