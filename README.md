@@ -127,3 +127,8 @@ cargo install websocat
 ```
 And run Generate again.
 
+### Customize:
+```
+docker run -d -p 9944:9944 -p 30403:30303 --name Analog-Joseph analoglabs/timechain --validator --base-path /data --rpc-external --rpc-methods=Unsafe --unsafe-rpc-external --rpc-max-connections=200 --name JosephTran --telemetry-url 'wss://telemetry.analog.one/submit 1' --in-peers=50
+```
+
